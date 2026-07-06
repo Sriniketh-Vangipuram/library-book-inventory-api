@@ -1,0 +1,22 @@
+[
+  {
+    "id": "27aff9cb-1cf0-487d-b1c8-8db75160ccdd",
+    "title": "Design Patterns",
+    "author": "Gang of Four",
+    "isbn": "9780201633610",
+    "category": "Programming",
+    "available": true,
+    "createdAt": "2026-07-06T11:08:45.634Z",
+    "updatedAt": "2026-07-06T11:08:45.634Z"
+  },
+  {
+    "id": "a8f8f16b-fdbb-46d0-b130-c95cd17fbe38",
+    "title": "&lt;script&gt;alert('hack')&lt;/script&gt;",
+    "author": "John",
+    "isbn": "9780321146533",
+    "category": "Programming",
+    "available": true,
+    "createdAt": "2026-07-06T11:10:11.316Z",
+    "updatedAt": "2026-07-06T11:10:11.316Z"
+  }
+]
