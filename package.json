@@ -11,8 +11,8 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "description": "Library Inventory REST API",
+  "license": "MIT",
+  "description":  "Production-style Express REST API for Library Book Inventory",
   "dependencies": {
     "cors": "^2.8.6",
     "dotenv": "^17.4.2",
