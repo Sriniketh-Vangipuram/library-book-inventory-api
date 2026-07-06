@@ -1,6 +1,6 @@
 # 📚 Library Book Inventory API
 
-A production-style **Express.js REST API** for managing a Library Book Inventory system.
+Production-style Express REST API built with Node.js and Express using Layered Architecture, Repository Pattern, and Service Layer.
 
 This project was built using a layered architecture that separates business logic, data access, request validation, and HTTP handling into independent modules. Although it currently uses a JSON file for persistence, the architecture is designed so the repository layer can later be replaced with MongoDB, PostgreSQL, or another database with minimal changes to the rest of the application.
 
@@ -183,6 +183,12 @@ NODE_ENV=development
 
 # API Endpoints
 
+## Base URL
+
+http://localhost:5000/api/v1
+
+---
+
 ## Health
 
 | Method | Endpoint         |
@@ -271,6 +277,17 @@ Common status codes:
 | 409         | Duplicate ISBN        |
 | 500         | Internal Server Error |
 
+
+---
+## Engineering Principles
+
+- Separation of Concerns
+- Single Responsibility Principle (SRP)
+- Repository Pattern
+- Layered Architecture
+- Standardized API Responses
+- Defensive Programming
+
 ---
 
 # Security Features
@@ -296,13 +313,13 @@ The API includes:
 
 ---
 
-# Design Patterns Used
+## Testing
 
-* Layered Architecture
-* Repository Pattern
-* Service Layer Pattern
-* Middleware Pattern
+The API can be tested using:
 
+- Postman
+- Thunder Client
+- curl
 ---
 
 # Future Improvements
@@ -318,10 +335,8 @@ The API includes:
 
 ---
 
-# License
+## 👨‍💻 Author
 
-This project is licensed under the MIT License.
+**Sriniketh Vangipuram**
 
-This README is strong enough for an internship submission and also looks appropriate for a portfolio repository. It documents not just *how* to run the project, but also *why* it's structured the way it is, which is something reviewers appreciate.
-
-oject is ready to submit.
+- GitHub: https://github.com/Sriniketh-Vangipuram
